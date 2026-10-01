@@ -14,5 +14,3 @@ pip install -r requirements.txt
 
 ## 运行
 pytest
-git config --global user.name "yegaogao"
-git config --global user.email "2931503932@qq.com"
