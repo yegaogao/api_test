@@ -51,7 +51,6 @@ def test_dict_value():
     assert age == 25
 
 def test_value_error():
-    "abc"
     with pytest.raises(ValueError):
         int("abc")
 
