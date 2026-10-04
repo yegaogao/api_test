@@ -1,0 +1,12 @@
+get_post:
+  url: "/posts/1"
+  expected_id: 1
+  expected_title: "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"
+
+create_post:
+  url: "/posts"
+  payload:
+    title: "foo"
+    body: "bar"
+    userId: 1
+  expected_status: 201
