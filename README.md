@@ -14,3 +14,6 @@ pip install -r requirements.txt
 
 ## 运行
 pytest
+
+## 测试报告
+![Allure Report](report_screenshot.png)
